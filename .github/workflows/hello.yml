@@ -1,0 +1,8 @@
+name: My name is workflow
+on: [push]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: github action success
+        run: echo "This action is successful github action"
